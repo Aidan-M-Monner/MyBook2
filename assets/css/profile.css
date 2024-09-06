@@ -1,0 +1,294 @@
+body {
+    background-color: #d0d8e4;
+    font-family: tahoma;
+}
+
+#background-img {
+    width: 100%;
+}
+
+#change-button {
+    background-color: #405d9b;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    float: right;
+    font-size: 14px;
+    padding: 4px;
+    width: 70px;
+}
+
+#content-area {
+    display: flex;
+}
+
+#cover {
+    margin: auto;
+    min-height: 400px;
+    width: 800px;
+}
+
+#cover hr {
+    width: 95%;
+}
+
+#cover-background {
+    background-color: #fff;
+    color: #405d9b;
+    text-align: center;
+}
+
+#create {
+    background-color: #fff;
+    border: solid thin #aaa;
+    padding: 10px;
+}
+
+#create textarea {
+    border: none;
+    font-family: tahoma;
+    font-size: 14px;
+    height: 60px;
+    width: 100%;
+}
+
+#date {
+    color: #999;
+}
+
+#friend {
+    clear: both;
+    color: #405d9b;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#friend-area {
+    flex: 1;
+    min-height: 400px;
+}
+
+#friend-img {
+    float: left;
+    margin: 8px;
+    width: 75px;
+}
+
+#friends-bar {
+    background-color: #fff;
+    color: #777777;
+    margin-top: 20px;
+    min-height: 400px;
+    padding: 8px;
+}
+
+#friends-bar hr {
+    width: 85%;
+}
+
+#friends-title {
+    font-size: 20px;
+}
+
+#hidden-box {
+    background-color: #FFF;
+    border: 1px solid #aaa;
+    display: none;
+    font-size: 12px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    width: 10%;
+}
+
+#like-button {
+    background-color: #9b409a;
+    margin-right: 15px;
+    width: 100%;
+}
+
+#logo {
+    color: #d9dfeb;
+    text-decoration: none;
+}
+
+#logout {
+    color: #FFF;
+    float: right;
+    font-size: 11px;
+    margin: 10px;
+}
+
+#main-profile {
+    float: right;
+}
+
+#main-profile:hover #hidden-box {
+    display: block;
+}
+
+#menu-button {
+    display: inline-block;
+    width: 100px;
+}
+
+#message_left {
+    border-radius: 10px;
+    display: flex;
+    float: left;
+    font-size: 13px;
+    margin: 8px;
+    padding: 4px;
+    width: 60%;
+}
+
+#message_right {
+    border-radius: 10px;
+    display: flex;
+    float: right;
+    font-size: 13px;
+    margin: 8px;
+    padding: 4px;
+    width: 60%;
+}
+
+#name {
+    font-size: 20px;
+}
+
+#notification {
+    background-color: #eee;
+    border: 1px solid #aaa;
+    color: #666;
+    height: 40px;
+    margin: 4px;
+}
+
+#post {
+    display: flex;
+    font-size: 13px;
+    margin-bottom: 20px;
+    padding: 4px;
+}
+
+#post-area {
+    flex: 2.5;
+    min-height: 400px;
+    padding: 20px;
+    padding-right: 0px;
+}
+
+#post-button {
+    background-color: #405d9b;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    min-width: 50px;
+    padding: 4px;
+    width: 50px;
+}
+
+#post-profile img {
+    margin-right: 4px;
+    width: 75px;
+}
+
+#post-text {
+    width: 100%;
+}
+
+#post-text a {
+    text-decoration: none;
+}
+
+#post-text hr {
+    width: 100%;
+}
+
+#post-user {
+    color: #405d9b;
+    font-weight: bold;
+}
+
+#posts-area {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#profile-img {
+    border: solid 2px #fff;
+    border-radius: 50%;
+    margin-top: -100px;
+    width: 150px;
+}
+
+#profile-pic {
+    width: 50px;
+}
+
+#top-bar {
+    background-color: #405d9b;
+    color: #d9dfeb;
+    height: 50px;
+}
+
+#search-box {
+    background-image: url("../img/search.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 25px;
+    padding: 4px;
+    width: 400px;
+}
+
+#text-box {
+    border: solid thin grey;
+    border-radius: 5px;
+    font-size: 14px;
+    height: 25px;
+    margin: 10px; 
+    padding: 4px;
+    width: 100%;
+}
+
+#title {
+    font-size: 30px;
+    margin: auto;
+    width: 800px;
+}
+
+#user-area {
+    flex: 1;
+    min-height: 400px;
+}
+
+#user-bar {
+    background-color: #fff;
+    color: #405d9b;
+    font-size: 20px;
+    margin-top: 20px;
+    min-height: 400px;
+    padding: 8px;
+    text-align: center;
+}
+
+#user-img {
+    border: solid 2px #fff;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: -15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+#user-link {
+    text-decoration: none;
+}
